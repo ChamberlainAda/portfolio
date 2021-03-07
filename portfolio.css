@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+    line-height: 1.4;
+    color: peru;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: plum;
+    color: rgb(122, 88, 156);
+    padding: 1rem 4rem;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+nav ul{
+    
+}

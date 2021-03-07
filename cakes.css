@@ -1,0 +1,62 @@
+/* @  charset "utf-8";
+body{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box 
+}
+/* .bg{
+    background-image: url("https://images7.alphacoders.com/404/404658.jpg");
+    height: 700px;
+    width: 650px;
+} */
+/* ul{
+    list-style :none;
+}
+a{
+    text-decoration: none;
+}
+.navigation-container{
+    width:100%;
+    height: 60px;
+    background-color:#a8dadc ;
+    box-shadow: 2px 2px 12px #f1faee;
+}
+.navigation-content{
+    height: 60px;}
+.cart img{
+    height: 30px;
+}    
+.menu ul{
+    display: flex;
+} */ 
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("https://images7.alphacoders.com/404/404658.jpg");
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

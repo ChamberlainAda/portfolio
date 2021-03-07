@@ -1,0 +1,77 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images7.alphacoders.com/404/404658.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 7px 25px;
+    color: #fff;
+    background-color: #f7cf8e;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.hero-text button:hover {
+    background-color: #f7c26d;
+    color: white;
+}
+.bg{
+    background-image: url("https://images7.alphacoders.com/404/404658.jpg");
+    height: 580px;
+    width: 480px;
+    
+}
+
+.btn-outline-success:hover{
+    color:#212529;
+    background-color:blue;
+    border-color: red
+}
+.font-h1{
+    font-size: 42px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+  .table-image {
+    td, th {
+      vertical-align: middle;
+    }
+  }
+  .ada{
+      height: 200px;
+  }
